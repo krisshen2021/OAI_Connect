@@ -1,0 +1,53 @@
+{
+    "qwen": {
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "api_key": "",
+        "models": [
+            {"id":"qwen-max-latest","name":"Qwen Max Latest"},
+            {"id":"qwen-plus-latest","name":"Qwen Plus Latest"},
+            {"id":"qwen-turbo-latest","name":"Qwen Turbo Latest"},
+            {"id":"qwen-long","name":"Qwen Long"},
+            {"id":"qwen-vl-max-latest","name":"Qwen VL Max Latest"},
+            {"id":"qwen-vl-plus-latest","name":"Qwen VL Plus Latest"},
+            {"id":"qwen-coder-plus-latest","name":"Qwen Coder Plus Latest"},
+            {"id":"qwq-32b-preview","name":"QWQ 32B Preview"},
+            {"id":"qwen2.5-72b-instruct","name":"Qwen 2.5 72B Instruct"}
+        ]
+    },
+    "ark": {
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "api_key": "",
+        "models": [
+            {"id":"ep-20241220124151-8grhp","name":"Doubao pro 32k"},
+            {"id":"ep-20241223081547-bsrxx", "name":"Doubao Vision pro 32k"}
+            
+        ]
+    },
+    "hunyuan": {
+        "base_url": "https://api.hunyuan.cloud.tencent.com/v1",
+        "api_key": "",
+        "models": [
+            {"id":"hunyuan-large","name":"Hunyuan Large"},
+            {"id":"hunyuan-large-longcontext","name":"Hunyuan Large Long Context"},
+            {"id":"hunyuan-turbo-latest","name":"Hunyuan Turbo Latest"},
+            {"id":"hunyuan-turbo-vision","name":"Hunyuan Turbo Vision"},
+            {"id":"hunyuan-standard","name":"Hunyuan Standard"},
+            {"id":"hunyuan-standard-256K","name":"Hunyuan Standard 256K"},
+            {"id":"hunyuan-role","name":"Hunyuan Role"},
+            {"id":"hunyuan-code","name":"Hunyuan Code"},
+            {"id":"hunyuan-pro","name":"Hunyuan Pro"}
+        ]
+    },
+    "google": {
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+        "api_key": "",
+        "models": [
+            {"id":"gemini-1.5-flash-latest","name":"Gemini 1.5 Flash Latest"},
+            {"id":"gemini-1.5-flash","name":"Gemini 1.5 Flash"},
+            {"id":"gemini-1.5-pro-latest","name":"Gemini 1.5 Pro Latest"},
+            {"id":"gemini-1.5-pro","name":"Gemini 1.5 Pro"},
+            {"id":"gemini-2.0-flash-exp","name":"Gemini 2.0 Flash Exp"},
+            {"id":"gemini-2.0-flash-thinking-exp","name":"Gemini 2.0 Flash Thinking Exp"}
+        ]
+    }
+}
